@@ -1,0 +1,10 @@
+{
+    // Pasta aonde serão gravados os arquivos resultantes da compilação dos arquivos '.ts'
+    "compilerOptions": {
+        "outDir": "dist/js", // pasta aonde os arquivos '.js' serão jogados
+        "target": "ES6", //versão em que o código será buildado
+        "noEmitOnError": true, //evita que sejão criados arquivos js com problemas
+        "noImplicitAny": true  //obriga a atribuição de um tipo a um atributo ou metodo
+    },
+    "include": ["app/**/*"] // da onde os arquivos serão lidos e posteriormente clonados
+}
